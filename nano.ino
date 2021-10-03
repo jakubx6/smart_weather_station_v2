@@ -111,7 +111,7 @@ void loop()
 			c = Wire.read();
 			comV3+=c;       
 		}
-
+ 
 		if (comV3.length() != 27)
 			continue;
 
