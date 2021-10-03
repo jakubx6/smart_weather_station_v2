@@ -179,7 +179,7 @@ void pDUST()
 			ITER++;
 			delay(50);
 		}     
-	}
+	} 
    
 	AVG_DUST /= MAX_ITERS;
 	AVG_DUST *= 100;
