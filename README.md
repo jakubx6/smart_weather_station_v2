@@ -36,7 +36,7 @@ Sensors:
         <td align="center"><img src="https://github.com/jakubx6/smart_weather/blob/main/img/website.jpg" width=200></td>
     </tr>
     <tr>
-        <td style="text-align: center"><a href="http://test.wykop.fun:4200/graph?minutes=15">Website</a></td>
+        <td style="text-align: center"><a href="http://test.wykop.fun:4200/graph?minutes=15">Check Website</a></td>
     </tr>
 </table>
 
@@ -45,7 +45,7 @@ The project uses low-cost modules available on the Internet. There are two Ardui
 - http://test.wykop.fun:4200/results
 - http://test.wykop.fun:4200/average?minutes=15
 - http://test.wykop.fun:4200/graph?minutes=15
-* parameter 'minutes' is responsible for agregate data in range 1-60 minutes
+*parameter 'minutes' is responsible for agregate data in range 1-60 minutes*
 
 ### License
 Take what you want and have fun ;)
