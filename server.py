@@ -46,19 +46,19 @@ def plotly():
     fig = make_subplots(specs=[[{"secondary_y": True}]])
     fig.update_xaxes(rangeslider_visible=True)
     
-    fig.add_trace(go.Scatter(x=prepared['time'], y= prepared['DTO'],name = "DTO"),    secondary_y=False,)
+    fig.add_trace(go.Scatter(x=prepared['time'], y= prepared['DTO'],name = "DTO"), secondary_y=False,)
     
-    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DHO'], name="DHO"),        secondary_y=False,)
+    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DHO'], name="DHO"), secondary_y=False,)
     
-    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DTI'], name="DTI"),        secondary_y=False,)    
+    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DTI'], name="DTI"), secondary_y=False,)    
 
-    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DHI'], name="DHI"),        secondary_y=False,)
+    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DHI'], name="DHI"), secondary_y=False,)
         
-    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['T1'], name="TI"),        secondary_y=False,)
+    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['T1'], name="TI"), secondary_y=False,)
 
-    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['T2'], name="TO"),        secondary_y=False,)
+    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['T2'], name="TO"), secondary_y=False,)
         
-    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DUST'], name="DUST", visible='legendonly'),secondary_y=False,)
+    fig.add_trace(go.Scatter(x=prepared['time'], y=prepared['DUST'], name="DUST", visible='legendonly'), secondary_y=False,)
         
     graphJSON = json.dumps(fig, cls=pxl.PlotlyJSONEncoder)
     return render_template('plotly.html', graphJSON=graphJSON)
