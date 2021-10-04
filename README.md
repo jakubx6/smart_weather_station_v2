@@ -45,6 +45,7 @@ The project uses low-cost modules available on the Internet. There are two Ardui
 - http://test.wykop.fun:4200/results
 - http://test.wykop.fun:4200/average?minutes=15
 - http://test.wykop.fun:4200/graph?minutes=15
+
 *parameter 'minutes' is responsible for agregate data in range 1-60 minutes*
 
 ### License
