@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <style type="text/css">
+body{
+background-image: url("https://wykop.fun/wp-content/uploads/2021/10/black-1024x683.jpg");
+}
+</style>
+</head>
+<body>
+  <a href = "https://wykop.fun/"><img src="https://wykop.fun/wp-content/uploads/2021/10/EKSlogo-2.png" alt="Logo EKS" style="width:415px;height:150px;"></a>
+  <center><h3><span style="color: white">Smart Weather Conditions Station</span></h3></center>
+  <div id="chart"></div>
+</body><script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script type="text/javascript">
+  var graphs = {{graphJSON | safe}};
+  Plotly.plot('chart',graphs,{});
+</script>
+ <footer>
+  <p><a href="https://fb.com/jakubx6"><span style="color: white">Author: Jakub Bronicki</span></p>
+  <p><a href="https://github.com/jakubx6/smart_weather/"><span style="color: white">Github: @jakubx6</span></a></p>
+</footer> 
+</html>
