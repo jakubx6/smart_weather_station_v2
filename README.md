@@ -36,7 +36,7 @@ Sensors:
         <td align="center"><img src="https://github.com/jakubx6/smart_weather/blob/main/img/website.jpg" width=200></td>
     </tr>
     <tr>
-        <td style="text-align: center"><a href="">Check Website</a></td>
+        <td style="text-align: center"><a>Check Website</a></td>
     </tr>
 </table>
 
